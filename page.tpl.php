@@ -48,7 +48,7 @@
                 <?php if ($site_name || $site_slogan): ?>
                 <div id="site-name-wrapper" class="clearfix">
                   <?php if ($site_name): ?>
-                  <span id="site-name"><?php print $site_name; ?></span>
+                  <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
                   <?php endif; ?>
                   <?php if ($site_slogan): ?>
                   <span id="slogan"><?php print $site_slogan; ?></span>
@@ -58,17 +58,12 @@
               </div><!-- /header-site-info-inner -->
             </div><!-- /header-site-info -->
             <?php endif; ?>
-            
+
             <?php print $header; ?>
+            <?php print theme('grid_block', $primary_links_tree, 'primary-menu'); ?>
           </div><!-- /header-group-inner -->
         </div><!-- /header-group -->
       </div><!-- /header-group-wrapper -->
-
-      <div id="primary-menu-wrapper" class="primary-menu-wrapper full-width">
-        <div id="primary-menu-group" class="primary-menu-group row <?php print $grid_width; ?>">
-          <?php print theme('grid_block', $primary_links_tree, 'primary-menu'); ?>
-        </div>
-      </div>  
 
       <!-- preface-top row: width = grid_width -->
       <?php print theme('grid_row', $preface_top, 'preface-top', 'full-width', $grid_width); ?>

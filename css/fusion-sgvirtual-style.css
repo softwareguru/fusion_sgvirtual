@@ -110,6 +110,8 @@ body {
 .header-group-wrapper {
 	padding-top:5px;
 	background: url('../images/background-header.jpg');
+	margin-bottom: 8px;
+	
 }
 
 .header-group {
@@ -129,17 +131,8 @@ body {
 /* Add general styles for primary menu here, such as typography, borders, floats,
   or spacing above/below */
 
-.primary-menu-wrapper {
-	height: 37px;
-	background: #8fc642;
-/*	background: url('../images/background-menu.jpg'); */
-	margin-bottom: 8px;
-}
-
 .primary-menu, .primary-menu a {
-	color: white;
-	font-weight: bold;
-	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 /* styles for Superfish primary menu */
@@ -149,11 +142,15 @@ body {
 /* Link style for top level menu items, add padding here */
 .primary-menu-inner ul.sf-menu a,
 .primary-menu-inner ul.sf-menu a:visited  {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .primary-menu-inner ul.sf-menu a:hover,
 .primary-menu-inner ul.sf-menu a:active,
 .primary-menu-inner ul.sf-menu a:focus {
+/*	color: #a0928c;	*/
 }
 
 /* These are the top level menu items, add border-right here for separators */
@@ -166,11 +163,17 @@ body {
 
 /* Style for container of dropdown, add background or border */
 .primary-menu-inner ul.sf-menu ul {
+	background: #8fc642;
 }
 
 /* Style for individual dropdown menu items, add border-bottom for separators */
 .primary-menu-inner ul.sf-menu li li {
-  background-color: #fff;
+	border-bottom: 1px solid #ffffff;
+	line-height: 120%; 
+}
+
+.primary-menu-inner ul.sf-menu li li a {
+    font-weight: normal;
 }
 
 .primary-menu-inner ul.sf-menu li li.last {
@@ -183,6 +186,7 @@ body {
 /* Style for hover of dropdown menu items (add background-color here) */
 .primary-menu-inner ul.sf-menu li ul li:hover,
 .primary-menu-inner ul.sf-menu li ul li.sfHover {
+	background: #75a336;
 }
 
 
