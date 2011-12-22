@@ -10,6 +10,7 @@ body {
 a,
 a:link,
 a:visited {
+    color: #8fc642;
 }
 
 /* Hover/active link styles. Don't forget :focus for accessibility */
