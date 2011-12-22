@@ -48,6 +48,15 @@ skinr[options][inherit_skins] = true
 ; Disable 12 column grid block widths inherited from fusion_core
 skinr[grid12-width] = ''
 
+; SG Virtual styles
+skinr[fusion-sgvirtual-styles][title] = General styles
+skinr[fusion-sgvirtual-styles][type] = checkboxes
+skinr[fusion-sgvirtual-styles][description] = SG Virtual options for blocks
+skinr[fusion-sgvirtual-styles][features][] = block
+skinr[fusion-general-styles][options][1][label] = <span class="preview-text">Block SGVirtual verde: Block verde con logo sgvirtual en título <span class="preview-icon" id="fusion-sgvirtual-styles-fusion-verde"></span></span>
+skinr[fusion-general-styles][options][1][class] = fusion-verde
+
+
 ; Sample Skinr style (uncomment to use, see Skinr section in CSS)
 ;skinr[fusion-example-styles][title] = Sample Skinr block styles
 ;skinr[fusion-example-styles][type] = checkboxes
