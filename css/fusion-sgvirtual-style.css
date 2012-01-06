@@ -350,6 +350,8 @@ h1.title {
 
 /* Typography for node titles */
 h2.title {
+	font-size: 0.9em;
+	color: #a0928c;
 }
 
 /* Colors and styles for linked node titles, ie. teaser listing at /node */
