@@ -873,3 +873,8 @@ input.list-add-to-cart:focus {
 	font-size: 1em;
 	font-weight: bold;
 }
+
+.sidebar-last .fusion-verde .content {
+	padding-left: 5px;
+	padding-right: 5px;
+}
