@@ -350,7 +350,7 @@ h1.title {
 
 /* Typography for node titles */
 h2.title {
-	font-size: 0.9em;
+	font-size: 1.0em;
 	color: #a0928c;
 }
 
@@ -884,4 +884,8 @@ input.list-add-to-cart:focus {
 .block .inner {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.views-field-field-logo-fid {
+  margin-bottom: 10px;
 }
