@@ -896,7 +896,7 @@ input.list-add-to-cart:focus {
     margin-bottom: 5px;
 }
 
-li.flag-session_vote {
+span.flag-wrapper {
 	display: block;
 	padding: 5px;
 	margin-top: 5px;
@@ -905,5 +905,8 @@ li.flag-session_vote {
 	font-weight: bold;
 	background-color: #80cc28;
 	color: #fff;
-	border: solid 1px #C0C0C0;
+	border: solid 3px #C0C0C0;
+}
+span.flag-wrapper a {
+	color: #FFFFFF;
 }
