@@ -378,8 +378,17 @@ h2.title a:active {
 
 /* Links for nodes (taxonomy, commenting, read more, etc) */
 .node ul.links li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	background-color: #80cc28;
+	border: solid 3px #C0C0C0;
 }
 .node ul.links a {
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFFFFF;
 }
 
 /* Only more/read more links */
@@ -896,17 +905,3 @@ input.list-add-to-cart:focus {
     margin-bottom: 5px;
 }
 
-span.flag-wrapper {
-	display: block;
-	background-color: #FFFFFF;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-span.flag-wrapper a {
-	padding: 5px;
-	font-size: 1.2em;
-	font-weight: bold;
-	background-color: #80cc28;
-	border: solid 3px #C0C0C0;
-	color: #FFFFFF;
-}
