@@ -10,7 +10,7 @@ body {
 a,
 a:link,
 a:visited {
-    color: #8fc642;
+    color: #80cc28;
 }
 
 /* Hover/active link styles. Don't forget :focus for accessibility */
@@ -49,19 +49,19 @@ body {
 }
 
 #site-info-fecha {
-	font-family: Arial, Helvetica, Sans;
-	font-size: 200%;
-	color: #8fc642;
-	margin: 55px 0 8px 0;
-	
+        font-family: Arimo, sans-serif;
+	font-size: 2.6em;
+	color: #80cc28;
+	margin: 40px 0 8px 0;	
 }
 
 #site-info-sede {
-	font-family: Arial, Helvetica, Sans;
-	font-size: 150%;
-	color: #a0928c;
+        font-family: Arimo, sans-serif;
+	font-size: 1.5em;
+        font-weight: bold;
+        color: #27963c;
 	margin: 0;
-
+        line-height: 120%;
 }
 
 /* Add float here to put logo and site name side by side, also add margins as
@@ -187,7 +187,7 @@ body {
 /* Style for hover of dropdown menu items (add background-color here) */
 .primary-menu-inner ul.sf-menu li ul li:hover,
 .primary-menu-inner ul.sf-menu li ul li.sfHover {
-	background: #75a336;
+	background: #27963c;
 }
 
 
@@ -335,6 +335,7 @@ body {
 /-------------------------------------------------------------- */
 /* Page and full node titles */
 h1.title {
+     color: #27963c;
 }
 
 
@@ -351,7 +352,7 @@ h1.title {
 /* Typography for node titles */
 h2.title {
 	font-size: 1.0em;
-	color: #a0928c;
+        color: #27963c;
 }
 
 /* Colors and styles for linked node titles, ie. teaser listing at /node */
@@ -888,4 +889,9 @@ input.list-add-to-cart:focus {
 
 .views-field-field-logo-fid {
   margin-bottom: 10px;
+}
+
+
+#header-group-inner .block-block {
+    margin-bottom: 5px;
 }
