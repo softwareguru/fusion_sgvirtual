@@ -896,11 +896,14 @@ input.list-add-to-cart:focus {
     margin-bottom: 5px;
 }
 
-span.flag-wrapper a {
+span.flag-wrapper {
 	display: block;
-	padding: 5px;
+	background-color: #FFFFFF;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+span.flag-wrapper a {
+	padding: 5px;
 	font-size: 1.2em;
 	font-weight: bold;
 	background-color: #80cc28;
